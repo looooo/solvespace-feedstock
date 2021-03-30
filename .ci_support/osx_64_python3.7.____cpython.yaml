@@ -7,11 +7,11 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '10'
+- '11'
 fontconfig:
 - '2.13'
 json_c:
-- '0.13'
+- '0.15'
 libpng:
 - '1.6'
 macos_machine:

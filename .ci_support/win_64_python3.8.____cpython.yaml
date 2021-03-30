@@ -7,7 +7,7 @@ cxx_compiler:
 fontconfig:
 - '2.13'
 json_c:
-- '0.13'
+- '0.15'
 libpng:
 - '1.6'
 pin_run_as_build:
