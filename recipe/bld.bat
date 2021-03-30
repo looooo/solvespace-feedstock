@@ -6,6 +6,7 @@ cmake -G "Ninja" ^
       -D CMAKE_BUILD_TYPE:STRING=Release ^
       -D BUILD_PYTHON:BOOL=ON ^
       -D ENABLE_GUI:BOOL=OFF ^
+      -D PYTHON_EXECUTABLE:FILEPATH=%PREFIX%/python ^
       ..
 
 ninja _slvs -v -w dupbuild=warn

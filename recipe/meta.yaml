@@ -20,8 +20,8 @@ requirements:
         - {{ compiler("cxx") }}
         - ninja
         - cmake
-        - swig
     host:
+        - swig
         - python
         - libpng
         - zlib
