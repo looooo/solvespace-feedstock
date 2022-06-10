@@ -1,5 +1,4 @@
 {% set version = "2.4.2" %}
-{% set sha256 = "19d7162bab2ed4f554435b7441c2631389e644ee542e21d0dc5cb307eec4c05b" %}
 
 package:
     name: solvespace
@@ -7,7 +6,7 @@ package:
 
 source:
     url: https://github.com/realthunder/solvespace/archive/v{{ version }}.tar.gz
-    sha256: {{ sha256 }}
+    sha256: 0aee9bbb0fad109800e4d8f899fdd23c3d8c46019bb5ac57959023ae61f3fcc2
     patches:
         - osx_python_linking.patch  # [osx]
 
