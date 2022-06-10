@@ -1,5 +1,5 @@
-{% set version = "2.4.1" %}
-{% set sha256 = "f07464b752e9005dd31c990bcccec46d07411a94da767bd61cbd600a190088e6" %}
+{% set version = "2.4.2" %}
+{% set sha256 = "19d7162bab2ed4f554435b7441c2631389e644ee542e21d0dc5cb307eec4c05b" %}
 
 package:
     name: solvespace
@@ -12,7 +12,7 @@ source:
         - osx_python_linking.patch  # [osx]
 
 build:
-    number: 3
+    number: 0
 
 requirements:
     build:
