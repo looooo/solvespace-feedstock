@@ -12,8 +12,8 @@ source:
         - osx_python_linking.patch  # [osx]
 
 build:
-    number: 2
-    skip: true  # [py<38]
+    number: 3
+    skip: true
 
 requirements:
     build:
